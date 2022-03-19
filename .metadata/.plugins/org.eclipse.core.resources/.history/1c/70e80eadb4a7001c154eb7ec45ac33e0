@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	// java standard
+	public static void main(String[] args) {
+		Saludo.saluda("");
+	}
+
+}

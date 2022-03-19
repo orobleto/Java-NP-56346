@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	// java standard
+	public static void main(String[] args) {
+		int total = suma(5, 16);
+		mostrar(total);
+
+	}
+
+	public static int suma(int a, int b) {
+		return a + b;
+	}
+
+	public static void imprimirSaludo() {
+		System.out.println("Hola desde metodo");
+	}
+
+	public static void mostrar(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena);
+	}
+
+}

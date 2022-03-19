@@ -1,0 +1,6 @@
+
+public class Saludo {
+	public static void saluda(String saldio) {
+		
+	}
+}

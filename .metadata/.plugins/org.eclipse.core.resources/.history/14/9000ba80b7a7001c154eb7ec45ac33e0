@@ -1,0 +1,20 @@
+
+public class Calculadora {
+	public static void main(String[] args) {
+
+	}
+
+	public static double calculo(char operador, double num1, double num2) {
+		switch (key) {
+		case value: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+
+		return 0;
+	}
+
+}

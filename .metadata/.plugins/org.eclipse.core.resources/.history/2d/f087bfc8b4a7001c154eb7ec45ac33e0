@@ -1,0 +1,8 @@
+public class Principal {
+
+	// java standard
+	public static void main(String[] args) {
+
+	}
+
+}

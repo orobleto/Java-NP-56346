@@ -1,0 +1,13 @@
+
+public class GenerarRGB {
+
+	// COLOR RGB(0 - 255, 0- 255, 0 - 255    )
+	public static void main(String[] args) {
+			System.out.println("el RGB(25,254,1)");
+	}
+	
+	
+	public static int generarNumero() {
+		return Math.random();
+	}
+}

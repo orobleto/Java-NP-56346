@@ -1,0 +1,21 @@
+
+public class GenerarRGB {
+
+	// COLOR RGB(0 - 255, 0- 255, 0 - 255 )
+	public static void main(String[] args) {
+		// 0 - 15
+		
+
+
+	}
+
+	public static int generarNumero(int maximo) {
+		return (int) Math.round(Math.random() * maximo);
+	}
+
+	public static String generarHexadecimal(int numero) {
+		String hexadecimal = Integer.toHexString(numero);
+		return (hexadecimal.length() > 1 ? hexadecimal : "0" + hexadecimal);
+	}
+
+}

@@ -1,0 +1,26 @@
+import javax.swing.JOptionPane;
+
+public class Calculadora {
+	public static void main(String[] args) {
+		// pedir y declarar variable
+		double numero1, numero2, total;
+		char operador;
+		numero1 = Double.parseDouble(JOptionPane.showInputDialog("Ingresa el numero 1"));
+		numero2 = Double.parseDouble(JOptionPane.showInputDialog("Ingresa el numero 2"));
+		operador = Character.valueOf(JOptionPane.showInputDialog("Ingresa la operacion [ + , -]:"));
+		total = calculo(0, numero1, numero2)
+	}
+
+	public static double calculo(char operador, double num1, double num2) {
+		switch (operador) {
+		case '+':
+			return num1 + num2;
+		case '-':
+			return num1 - num2;
+		default:
+			return 0;
+		}
+
+	}
+
+}

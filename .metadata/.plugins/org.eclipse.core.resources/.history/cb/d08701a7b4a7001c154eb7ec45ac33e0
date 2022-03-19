@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	// java standard
+	public static void main(String[] args) {
+		System.out.println("inicio");
+		imprimirSaludo("Hola");
+		String saludo = "Hola desde variable";
+		imprimirSaludo(saludo);
+		System.out.println("fin");
+	}
+
+	public static void imprimirSaludo(String saludo) {
+		JOptionPane.showMessageDialog(null, saludo);
+		System.out.println(saludo);
+	}
+
+}

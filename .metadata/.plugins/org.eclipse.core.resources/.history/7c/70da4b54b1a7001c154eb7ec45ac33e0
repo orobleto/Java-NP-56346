@@ -1,0 +1,16 @@
+
+public class Principal {
+	public static void imprimirSaludo() {
+		System.out.println("Hola desde metodo");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("inicio");
+		imprimirSaludo();
+		System.out.println("fin");
+		
+		System.out.println();
+		String saludo = "";
+	}
+
+}

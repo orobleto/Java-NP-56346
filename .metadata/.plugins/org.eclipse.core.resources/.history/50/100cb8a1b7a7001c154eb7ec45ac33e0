@@ -1,0 +1,17 @@
+
+public class Calculadora {
+	public static void main(String[] args) {
+
+	}
+
+	public static double calculo(char operador, double num1, double num2) {
+		switch (operador) {
+		case '+':
+			return num1 + num2;
+			
+		}
+
+
+	}
+
+}

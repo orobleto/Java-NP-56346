@@ -1,0 +1,16 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		System.out.println("inicio");
+		imprimirSaludo("Hola");
+		String saludo = "Hola desde variable";
+		
+		System.out.println("fin");
+	}
+
+	public static void imprimirSaludo(String saludo) {
+		System.out.println(saludo);
+	}
+
+}

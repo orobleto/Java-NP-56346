@@ -1,0 +1,18 @@
+public class Principal {
+
+	// java standard
+	public static void main(String[] args) {
+
+	}
+	
+	
+	public static void imprimirSaludo() {
+		System.out.println("Hola desde metodo");
+	}
+	
+	public static void mostrarSaludo(String saludo) {
+		
+	}
+	
+
+}

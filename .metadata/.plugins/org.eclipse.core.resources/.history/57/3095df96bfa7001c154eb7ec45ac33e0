@@ -1,0 +1,8 @@
+
+public class GenerarRGB {
+
+	// COLOR RGB(0 - 255, 0- 255, 0 - 255    )
+	public static void main(String[] args) {
+
+	}
+}
